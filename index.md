@@ -1,10 +1,10 @@
 ---
-Title: Getting Started with UniDokkan
+Title: Getting Started with KX-Dokkan
 Sort: 1
 ---
 This guide is for new or returning users of the UniDokkan patching system for Dokkan Battle.
 
-**IMPORTANT:** As you go through this guide and use UniDokkan you must agree to the following things:
+**IMPORTANT:** As you go through this guide and use KX-Dokkan you must agree to the following things:
 
  1. **UniDokkan is currently in beta!** This means that features will change or things can break at any time.
  2. **Keep your Dokkan Battle account safe!** The best thing you can do is keep your account linked to Facebook. An unlinked account is the best way to lose the account forever. Don't gamble with account recovery denying your account.
