@@ -9,14 +9,16 @@ nav_order: 1
 
 ## **Getting Started**
 
-**DISCLAIMER: Dokkan Entropy is currently in public beta**
-[simply join the discord and become verified to download the ipa](https://discord.gg/3j9PpUgPFJ)
+**DISCLAIMER: To get KX-Dokkan please join the Discord and follow the instructions!**
+[Discord here](https://discord.gg/kxdokkan)
 
-First you'll need to sideload the [**IPA**](https://discord.com/channels/961349987059531928/962947129935024128/994886846146428988) onto your device. There are numerous way's to do this. Some sideloading services are listed below.
- - [**Sideloadly**](https://sideloadly.io/) **Has a 100% success rate with Entropy**
- - [**AltStore**](https://altstore.io/) **Seems to be a hit or miss suggest using sideloadly instead**
- - [**Signulous**](https://www.signulous.com/) **A paid ipa signing service, I've never used it but feel free too.**
+### iOS/iPadOS
 
+The first step is to sideload the [**IPA**](https://discord.com/channels/794907952766255154/1008103015867228160) onto your device.
+You can either use Sideloadly, AltStore or other third party signing services.
+For KX we prefer the first 2 methods:
+ - [**Sideloadly**](https://sideloadly.io/) **More robust/reliable way of sideloading**
+ - [**AltStore**](https://altstore.io/) **Easier on-device reprovisioning**
 
 With Entropy Mobile in public beta now you're able to simply sideload the ipa, download the assets through the patcher and start gaming!
 
