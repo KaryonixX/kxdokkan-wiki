@@ -1,7 +1,10 @@
 ---
-Title: Resources
+title: Resources
 Sort: 1000
 ---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ## **Image Resolutions**
 
 | Item | Resolution |
@@ -24,7 +27,7 @@ Note: for global compatibility just copy whatever is in the folder and put it fo
  
  [GUI](https://cdn.discordapp.com/attachments/565625878831169546/662005932871516170/Complete_GUI_Assets.zip)
 
-<sub>By GhostWaves</sub>
+<sub>By [GhostWaves](https://twitter.com/GhostKankitsu)</sub>
 
 
 ## **Templates**
@@ -89,4 +92,4 @@ You will find 1 *.lwf*, 4 *.psd* and 1 *.json* file at the end of the *item* pat
 
 *If you are a creator, make sure to check the spreadshit posted in #knowledgebase to add your wallpapers to the list*
 
-<sub>By Energizz</sub>
+<sub>By [Energizz](https://twitter.com/_Energizz)</sub>

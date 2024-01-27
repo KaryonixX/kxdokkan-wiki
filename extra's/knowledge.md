@@ -1,12 +1,16 @@
 ---
-Title: Knowledge
+title: UD Guides
 Description: work in progress. Come back later
 ---
+---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ## **Custom Level**
 
 In order to have a custom lvl like 420 all you have to do is add a new row in card_exps set lvl to desired lvl and set exp_type (to a random number above 999 or 4 trillion or a negative number) set exp_total to any number below 0 go to cards and set   exp_type to the number you set it to in card_exps table and set training_exp to the number you set it to in card_exps.exp_total and set lvl_max to the lvl amount you set it to in card_exps
 
-<sub>by BunRum</sub>
+<sub>by [BunRum](https://twitter.com/BunRum)</sub>
 
 ------------------------
 ## **Copy an existing Super Attack**
@@ -34,7 +38,7 @@ Now we just head up to the database and in special\_views we'll create a new row
 
 And done! The Id in the row of **special\_views** will be used as a view id in the original super
 
-<sub>from Rena & Gokenn</sub>
+<sub>from Rena & [Gokenn](https://twitter.com/zuhair_khatib)</sub>
 
 
 ------------------------
@@ -59,34 +63,42 @@ And done! The Id in the row of **special\_views** will be used as a view id in t
 |STR |3      |13   |23     |
 |PHY |4      |14   |24     |
 
-#### Type Bitsets
-|     Type      |    Value   |
-|:-------------:|------------|
-|  AGL          |  1         |
-|  TEQ          |  2         |
-|  INT          |  4         |
-|  STR          |  8         |
-|  PHY          |  16        |
-|  Super        |  32        |
-|  Extreme      |  64        |
-|  Unknown      |  128       |
-|  Unknown      |  256       |
-|  Unknown      |  512       |
-|  Unknown      |  1024      |
-|  Unknown      |  2048      |                  
-|  Super AGL    |  4096      |
-|  Super TEQ    |  8192      |
-|  Super INT    |  16384     |
-|  Super STR    |  32768     |
-|  Super PHY    |  65536     |
-|  Extreme AGL  |  131072    |
-|  Extreme TEQ  |  262144    |
-|  Extreme INT  |  524288    |
-|  Extreme STR  |  1048576   |
-|  Extreme PHY  |  2097512   |
-|  Unknown      |  4194304   |
-|  Unknown      |  8388608   |
-|  Unknown      |  16777216  |
+
+
+------------------------
+## **Type Bitsets**
+
+
+
+|----|-----|
+|AGL |1    |
+|TEQ |2    |
+|INT |4    |
+|STR |8    |
+|PHY |16   |
+|Super |32 |
+|Extreme |64 |
+|Unknown |128 |
+|Unknown |256 |
+|Unknown |512 |
+|Unknown |1024 |
+|Unknown |2048 |                  
+|Super AGL |4096 |
+|Super TEQ |8192 |
+|Super INT |16384 |
+|Super STR |32768 |
+|Super PHY |65536 |
+|Extreme AGL |131072  |
+|Extreme TEQ |262144  |
+|Extreme INT |524288  |
+|Extreme STR |1048576 |
+|Extreme PHY |2097512 |
+|Unknown |  4194304   |
+|Unknown |  8388608   |
+|Unknown |  16777216  |
+
+
+
 
 
 ------------------------
@@ -152,7 +164,7 @@ eff4_value2 = 0
 eff4_value3 = 0
 
 
-<sub>By Cake (Edited and fixed by Renacabeza26 and Energizz)</sub>
+<sub>By Cake (Edited and fixed by Renacabeza26 and [Energizz](https://twitter.com/_Energizz))</sub>
 
 ------------------------
 ## **Super attack sa quote**
@@ -593,3 +605,4 @@ Must be open sooner than a year in the future. <br>
 
 1004 = 	The Wall Standing Tall/Foils enemy's "True Power" and boosts ATK 
 by 15%
+---

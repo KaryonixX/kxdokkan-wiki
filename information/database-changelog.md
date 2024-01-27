@@ -2,6 +2,7 @@
 Title: Database Changelog
 Description: A list of changes to the Dokkan database
 ---
+---
 ## Japan 4.10.0 🡢 4.11.0
 
 <br />
@@ -80,4 +81,4 @@ Description: A list of changes to the Dokkan database
 	 - Default `0`
 	 - Unused
 
- 
+---

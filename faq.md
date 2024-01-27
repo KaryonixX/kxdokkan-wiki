@@ -1,27 +1,28 @@
 ---
-Title: FAQ / Help
-Sort: 2
+title: FAQ
+nav_sort: 2
 ---
-#### **I can't install the new patcher or game APK.**
-Check to make sure you have enough room on your phone;<br /><br />
 
-#### **Does this work on iOS?**
-No. I do not have any Apple devices to develop with, and I do not know anyone capable of taking over the iOS side of UniDokkan development.<br /><br />
+---
+ - Q: What is Dokkan Entropy?
+    - A: Dokkan Entropy is a private Dokkan Battle sandbox for iOS, iPadOS and ARM/Apple Silicon Macs.
 
-#### **Do I have to run the patcher app each time I want to play the game with patches?**
-Yes. The patcher does not modify any game files permanently. You must start the game through the patcher to have it use the patched files.<br /><br />
 
-#### **The game crashes when I launch it through the patcher.**
-Make sure you've let the game do a full data download before running it through the patcher.<br /><br />
+ - Q: Does Dokkan Entropy Require Jailbreak?
+    - A: Nope users do not have to be jailbroken. However jailbroken users will not have to install the Dokkan Entropy IPA instead they'll be able to use the offical IPA's and still connect to their servers.
 
-#### **I can't buy stones**
-Any modifications to the game remove the ability to make in-app purchases due Android security measures and policies. If you wish to buy stones, transfer back to the original DOKKAN BATTLE game.<br /><br />
 
-#### **What happens when DOKKAN BATTLE updates?**
-For full game updates where the version number changes an update will be posted. Do not uninstall the previous version. The newer version will update any previous installation. Individual patch updates are the responsibility of their creators and can have varying update time-frames.<br /><br />
+ - Q: What about Android?
+    - A: Android support will eventually arrive. Currently it is not my priority, but i do plan to tackle android when Entropy Mobile has been publicly released
 
-#### **Does UniDokkan do anything to the game’s servers?**
-No. It can only apply client sided changes.<br /><br />
 
-#### **I'm having trouble linking with Facebook**
-Uninstall the Facebook App, it can cause issue with linking.<br /><br />
+ - Q: What is Entropy Mobile?
+    - A: Essentially it is this entire project consolidated into one app. The server, patcher, custom creator will all be apart of the IPA. Through the settings app you can choose what you want to load on app launch. The server will be on your app so no PC/Laptop will be needed to play **(A PC/Laptop will be required to sideload the app onto your apple device for free. This is out of our control).** Also it serves on localhost so as long as you don't need to do a an offical game data download then you'll be able to play without internet! Eventually You will also be able add Patch sources (similar to tweak sources) to load patches made by others into Dokkan. Entropy mobile is currently in public beta and only the server and limited modifiactions are supported.
+
+
+ - Q: In it's current state does Entropy support custom content?
+    - A: Absolutely! However it's very manual right now. You have access to the entire asset directory in the files app so you can copy over assets, replace assets, etc... You can also serve the game your custom database through the Entropy Server. All the server data is stored in a sqlite database within your apps files called `user.db` open this in a database editor of your choice to apply server side mods/changes.
+
+
+---
+

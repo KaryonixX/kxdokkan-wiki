@@ -1,6 +1,7 @@
 ---
 Title: Damage Calculations
 ---
+---
 # Class: `DPuzzleGameController`
 ## Method: `calcDealDamage()`
 
@@ -102,3 +103,4 @@ Title: Damage Calculations
     - `Total_Damage = Total_Damage * (eff_value1 / 100)`
     
  18. `calcDealDamage()` returns `Total_Damage` for further processing
+---

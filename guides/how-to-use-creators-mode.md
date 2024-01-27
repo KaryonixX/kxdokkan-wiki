@@ -2,6 +2,7 @@
 Title: How to use Creator's Mode?
 Sort: 2
 ---
+---
 ## What is Creator's Mode?
 
 Creator's Mode is a feature in the UniDokkan patcher that allows fast iteration and testing before turning changes into a full Patch.
@@ -134,3 +135,5 @@ With Creator's Mode enabled, you can also get some relevant game information for
  - **Target APK Version** is the game version of the targeted game.
  - **Target Asset Version** is the version of the most recently downloaded assets. This number will be 0 if you have never completed a data download.
  - **Target DB Version** is the version of the most recently downloaded database. This number will be 0 if you have never completed a data download.
+
+---

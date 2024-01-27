@@ -1,12 +1,15 @@
 ---
-Title: Battle Params Table
+title: Battle Params Table
 Sort: 3
 ---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ### Efficacy Type 103 - Transformation
 
 * **Eff Value 1:** Transform Card Id
 * **Eff Value 2:** Turn Requirement
-* **Eff Value 3:** Links to [battle_params](/wiki/information/database-breakdown#battle_params) `param_no`
+* **Eff Value 3:** Links to [battle_params](/information/database-breakdown#battle_params) `param_no`
 
 
 | Idx 	| Description                     	|

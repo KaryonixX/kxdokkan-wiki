@@ -2,12 +2,14 @@
 Title: Translations For Jailbroken iOS Devices
 Sort: 99
 ---
-# Warnings and Disclaimers
+---
+### Unidokkan for iOS
 
-In order to use any modifications on iOS you **must** be jailbroken. Using modifications for dokkan on iOS is more likely to be detected on iOS than it is using the Unidokkan patcher on Android. Any and all questions/concerns/issues should be directed at Xeno Vegito#6969 and **no other creators.**
+<!-- In order to use any modifications on iOS you **must** be jailbroken. Using modifications for dokkan on iOS is more likely to be detected on iOS than it is using the Unidokkan patcher on Android. Any and all questions/concerns/issues should be directed at Xeno Vegito#6969 and **no other creators.** -->
 
 
 # Starting Guide
+In order to use any modifications on iOS you **must** be jailbroken. Using modifications for dokkan on iOS is more likely to be detected on iOS than it is using the Unidokkan patcher on Android. Any and all questions/concerns/issues should be directed at Xeno Vegito#6969 and **no other creators.**
 
 The tweaks and repositories you will need installed on your device in order to use these mods. 
 
@@ -32,3 +34,4 @@ Once you have all the tweaks installed properly, open Filza and navigate to your
 ```var/mobile/Containers/Data/Applications/[whichever Dokkan version you are using]/Documents/assets/sqlite/current```
 
 When prompted to either rename or replace, pick the replace option. Now launch Dokkan, and whatever modification you downloaded should be there.
+---

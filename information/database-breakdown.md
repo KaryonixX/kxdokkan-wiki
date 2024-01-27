@@ -1,7 +1,11 @@
 ---
-Title: Database Breakdown
-Sort: 1
+title: Database Breakdown
+nav_order: 2
 ---
+---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ## act_cure_schedules
 
 Description of `act_cure_schedules` table.
@@ -4156,6 +4160,6 @@ Description of `z_battle_stage_views` table.
     * Type: `date/time`
 * `updated_at`
     * Type: `date/time`
-
+---
   
  

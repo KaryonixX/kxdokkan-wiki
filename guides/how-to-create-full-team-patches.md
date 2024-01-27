@@ -1,6 +1,9 @@
 ---
 Title: How To Create "Full Team" Patches
 ---
+---
+
+## How to Create "Full Team" Patches.
 **How to create “Full Team” Patches.**
 
 **Notes:** Before we start, I want to say that you NEED to use Trident with the Full Team Patch or Looseload for it to work. Otherwise, it will not show the duplicated units in your box. Also, NEVER lower the cost of the units.
@@ -38,3 +41,4 @@ Once you finish duplicating all the category rows, if the unit does not have an 
 11. If you the unit has an active skill, you have to go to the card active skills table and find the rows of the original ID of the unit. Then, you have to duplicate the rows and change the ID’s to the duplicated unit ID’s. After that, you’re finished.
 
 **By TheRaven003.**
+---

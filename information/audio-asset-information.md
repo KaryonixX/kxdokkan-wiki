@@ -1,6 +1,9 @@
 ---
-Title: Audio Asset Information
+title: Audio Asset Information
 ---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ### Sound Effects
 
 ##### File Path

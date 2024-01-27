@@ -1,7 +1,11 @@
 ---
-Title: Lua Scripting for Animations
+title: Lua Scripting for Animations
 Sort: 4
 ---
+---
+[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix)
+ 
+[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
 ### Learn Lua
 
 * If you already have some minimal experience with programming: http://tylerneylon.com/a/learn-lua/
@@ -140,3 +144,4 @@ _IS_CRITICAL_
 _SPECIAL_ENERGY_COLOR_
 _SPECIAL_SKILL_LEVEL_
 ```
+---
