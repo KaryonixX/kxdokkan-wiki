@@ -4,8 +4,6 @@ Sort: 3
 nav_order: 6
 ---
 
-### [**Custom Bgms by freeoddity**](https://twitter.com/korewasosoruze)
-
 ## **Tools**
 * [Radx Encode (Windows)](https://github.com/Isaac-Lozano/radx/releases/download/v0.3.1/radx_encode.exe)
 * [Radx Encode (MacOS)](https://github.com/Isaac-Lozano/radx/releases/download/v0.3.1/radx_encode.exe)
@@ -36,16 +34,6 @@ Those steps are the following:
 Learn how to use terminal or command prompt. All the tools required by the process 
 are command line applications. Meaning they have no graphical user interface (gui).
 So practice using the command line or wait for the toolkit to contain the same features.
-
-## **iOS**
-
-The iOS Patcher of dokkan entropy is able to mass create bgms by completeing the process above.
-Hit the Audio Creator Button in the patcher. Then select the Create BGMS popup. Next select all 
-the wav files you'd like to convert to bgms. If you'd like to customize the loop points of the 
-adx file, then simply select the tab associated with the wav file. It will spawn forth a popup 
-allowing you to change the loop points used. Finally press the convert all files button in the top right
-then patiently wait as the process commences. As long as your wav file meets the conditions laid out 
-you will have a custom made bgm ready to be loaded ingame.
 
 ## **Windows/Mac**
 
@@ -80,9 +68,5 @@ with a numerical id. Note that AWB_repacker gave us a file with the extension `A
 dokkan will fail to read this. Ensure that the extension is the lowercase`awb`. The id can be any number.
 Then simply place it in the bgm folder of the assets.
 
-# Conclusion
-That is all, Enjoy adding your custom bgms to dokkan entropy!
-The next audio tutorial will explain ACB's and their shenanigans!
-Happy Modding Dokkaners!
 
 

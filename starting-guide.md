@@ -14,56 +14,48 @@ nav_order: 1
 
 ### iOS/iPadOS
 
-The first step is to sideload the [**IPA**](https://discord.com/channels/794907952766255154/1008103015867228160) onto your device.
+ The first step for Android is to download the IPA for [**KX-Plus**](https://discord.com/channels/794907952766255154/1008103015867228160)
+ or [**KX-Vanilla**](https://discord.com/channels/794907952766255154/1136642538606956544) onto your device.
+
 You can either use Sideloadly, AltStore or other third party signing services.
 For KX we prefer the first 2 methods:
  - [**Sideloadly**](https://sideloadly.io/) **More robust/reliable way of sideloading**
  - [**AltStore**](https://altstore.io/) **Easier on-device reprovisioning**
 
-With Entropy Mobile in public beta now you're able to simply sideload the ipa, download the assets through the patcher and start gaming!
+ ### Android
 
-So after sideloading the app go to the settings app scroll down until you find Dokkan Entropy, and enable the patcher
+ The first step for Android is to download the APK for [**KX-Plus**](https://discord.com/channels/794907952766255154/1008103015867228160)
+ or [**KX-Vanilla**](https://discord.com/channels/794907952766255154/1136642538606956544).
 
-![**enablePatcher](/imgs/enable_patcher.png)
+ Make sure, as with all other APKs that you have installations from external sources allowed on Android.
 
+### Getting your linkcode
 
-Next open the Dokkan Entropy App you should be greeted to a very barebones UI with a few buttons. 
+Head to [**#general-plus**](https://discord.com/channels/794907952766255154/1102928322733822062) for KX-Plus users
+or to [**general**](https://discord.com/channels/794907952766255154/1140767565614956634) for KX-Vanilla users and do /register to get your linkcode!
+![**linkcode](/imgs/linkcode.png)
 
-Press the Download Assets button then let the data download run it's course.
-![**patcher](/imgs/patcher.png)
+**You'll be able to see that you can use /register for either Vanilla or Plus in the aforementioned channels.**
 
-The Downloader will create a sqlite database called "hashes.db" which will store the file hashes of the file downloaded to a specific path. Whenever the server is updated, you can simply hit download assets, and if the hash is different or doesn't exist in the hashes database then it will be overwritten
+If you already got your code before, use **/linkcode** to renew your code and invalidate all older ones.
 
-After the assets are done downloading, close the app entirely, and go back to the settings app, go to Dokkan Entropy, and then disable the patcher, and enable Entropy Mobile
+![**bot-code](/imgs/bot-code.png)
 
-Open the Dokkan Entropy App and you should go through a 0 mb data download. After that you should be at the dokkan main menu awaiting adventure!
+### Setting up the Game
 
-<!-- Next you'll need to install the [**Dokkan Entropy Server**](https://discord.com/channels/961349987059531928/962947129935024128/994886846146428988) onto your Desktop or Laptop. Currently there is only a Windows Build but builds for Mac and Linux will be released soon!
-
-Upon completing the Discord Authorization. You'll need to restore or create a bot account. Currently Entropy uses this bot account to grab the assets from the offical servers. When the patching portion of Entropy is complete we will remove the dependency on the offical servers. -->
-<!-- 
-
-**DISCLAIMER: With iOS 14 Apple introduced Local Network Permissions. If you're connecting your phone to your local machine (A PC/Laptop running on your home wifi) Then you will need to enable Local Netowork Access to the Entropy App on your phone. The switch can be found in the app Settings.**
-[**There is a local network bypass but it's advised to use this at your own risk**](/lnbypass.md)
-
-![**localnetoworkpng](/imgs/LocalNetwork.png)
-
-Once the main menu loads you'll have a slew of options to customize your server. If you'd like to start playing immediatly then hit `[1] Start Server`. The program will prompt you to choose a port or hit enter to continue on the default port which is 8080. If you do choose another port then the program will make your chosen port the new default port. It should look like this.
-!["Entropy Server Port Question"](/imgs/PortQuestion.png)
-
-After choosing the port the program will give you an ip address and port number.
-
-Now on your idevice go to the Settings app, scroll down until you find Dokkan Entropy or Whatever name you've given the sideloaded app and select it then select Entropy PC settings. There you'll see two textfields labeled Hostname and Port.
-!["wheresPCgif"](/imgs/wheresPC.gif)
+Open the installed KX-Plus or KX-Vanilla App and you should press the **Red Button/"Continue Game"** when prompted.
 
 
-**DISCALIMER In the gif example above I am using the local network bypass mentioned earlier.**
+![**redbutton](/imgs/redbutton.png)
+then you'll continue with the Transfer code method, its the only field you can press.
+![**transfer-code](/imgs/transfer-code.png)
 
-Enter `http://server_ip` into the hostname field. Replace `server_ip` with the ip given to you by the Dokkan Entropy server. It's advised to double check and make sure the ip given by Entropy is the same ip given when you run `ipconfig` in a terminal. If they're are not the same. Then you should use the ip given by `ipconfig` the server is designed to run on `0.0.0.0` so it will respond to any incoming connections. You can also use `http://your.domain.com` if you have a registered domain resolving to your machine or vps. If you'd like to support https then on Entropy server hit `[6] Edit Settings`
-then `[8] Change HTTPS Status`. If the current status is 0, then https is disabled. If it is 1 then it is enabled.
+After that we make sure to transfer the code over we got from the /register or /linkcode command.
 
-Enter the same port number you entered when starting the server into the port field.
+![**codeentry](/imgs/codeentry.png)
 
-Finally you can start the app and you should go though the initial data download. After you'll be at the dokkan main menu awaiting adventure! -->
+Press **OK** and you should see that the game asks you to load a RANK 999 or 777 data, we continue to click through all upcoming prompts until we reach a Data-Download of approximately 13 GB in size.
 
+**MAKE SURE YOU HAVE ENOUGH STORAGE AND A STABLE CONNECTION FOR THIS DATA-DL, TURN OFF ALL VPN-CONNECTIONS!**
 
+After the DL has finished, you should find yourself inside of the game. Enjoy!

@@ -1,11 +1,12 @@
 ---
-title: Database Breakdown
+title: Dokkan-Database Breakdown
 nav_order: 2
 ---
 ---
-[**Thanks to T6 for allowing me to reuse the UD wiki!**](https://twitter.com/ThievingSix) 
+[**Thanks to T6 for providing the useful UD wiki!**](https://twitter.com/ThievingSix) 
 
-[**Be sure to check out his new Dokkan Wiki**](https://dokkan.wiki/)
+[**Be sure to check out Dokkan Wiki**](https://dokkan.wiki/)
+
 ## act_cure_schedules
 
 Description of `act_cure_schedules` table.

@@ -4,25 +4,28 @@ nav_sort: 2
 ---
 
 ---
- - Q: What is Dokkan Entropy?
-    - A: Dokkan Entropy is a private Dokkan Battle sandbox for iOS, iPadOS and ARM/Apple Silicon Macs.
+ - Q: What is KX-Dokkan?
+    - A: KX-Dokkan is a DBZ: Dokkan Battle Private Server for iOS, iPadOS and Android.
 
 
- - Q: Does Dokkan Entropy Require Jailbreak?
-    - A: Nope users do not have to be jailbroken. However jailbroken users will not have to install the Dokkan Entropy IPA instead they'll be able to use the offical IPA's and still connect to their servers.
+ - Q: What is KX-Plus and where do i get it?
+    - A: KX-Plus is a Premium subscription and adds a vast majority of custom content and additions on top of KX-Vanilla.
+         Read more about it [here.](https://discord.com/channels/794907952766255154/809527253988802600)
 
+ - Q: Where is the Bot?
+    - A: Chroma *(previously KX-Chroma)* is still under development and will make a comeback as a seperate Program on a new Server!
+    
+ - Q: Will we have patches soon?
+    - A: Yes, a Patcher is currently in the works and KX-Dokkan will soon be enjoyable with a patcher system where you can toggle the mods you want.
 
- - Q: What about Android?
-    - A: Android support will eventually arrive. Currently it is not my priority, but i do plan to tackle android when Entropy Mobile has been publicly released
+ - Q: Does KX advance my own account?
+    - A: No! KX-Dokkan is completely independant from the original game servers and does not put your account in any sort of ban risk or modify it in any way.
 
+ - Q: A new character released on Dokkan! How do i get it?
+    - A: On KX-Vanilla the DDLs are automatic, which means as soon as dokkan releases this character via Data-DL it should be visible in KX-Vanilla 10-20m afterwards.
+         However we cannot add a new character based on just a new trailer or leaks. On KX-Plus new DLs are added shortly afterwards (could be directly after or 1-2 days depending on what type of content has released.)
 
- - Q: What is Entropy Mobile?
-    - A: Essentially it is this entire project consolidated into one app. The server, patcher, custom creator will all be apart of the IPA. Through the settings app you can choose what you want to load on app launch. The server will be on your app so no PC/Laptop will be needed to play **(A PC/Laptop will be required to sideload the app onto your apple device for free. This is out of our control).** Also it serves on localhost so as long as you don't need to do a an offical game data download then you'll be able to play without internet! Eventually You will also be able add Patch sources (similar to tweak sources) to load patches made by others into Dokkan. Entropy mobile is currently in public beta and only the server and limited modifiactions are supported.
-
-
- - Q: In it's current state does Entropy support custom content?
-    - A: Absolutely! However it's very manual right now. You have access to the entire asset directory in the files app so you can copy over assets, replace assets, etc... You can also serve the game your custom database through the Entropy Server. All the server data is stored in a sqlite database within your apps files called `user.db` open this in a database editor of your choice to apply server side mods/changes.
-
-
+ - Q: Can i add my own ideas and characters?
+    - A: We're currently working on a new Tutorial for everyone with KX-Plus to be able to realize their ideas into the game! More info will be here when its done.
 ---
 
