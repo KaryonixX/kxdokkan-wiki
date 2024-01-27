@@ -27,5 +27,7 @@ nav_sort: 2
 
  - Q: Can i add my own ideas and characters?
     - A: We're currently working on a new Tutorial for everyone with KX-Plus to be able to realize their ideas into the game! More info will be here when its done.
+
+
 ---
 
