@@ -2,7 +2,7 @@
 layout: page
 title: Custom Event Guide
 permalink: /custom-events/
-nav_order: 6
+nav_order: 19
 ---
 
 # How to create custom events with the KX-Creator tool?
