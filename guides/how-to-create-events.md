@@ -62,7 +62,7 @@ difficulties go from Normal to Super3
 5 = Super 2,
 6 = Super 3
 ```
-you can add many more things ìncluding the bgm/ost for the battle or map of the stage and the background that is shown during the fight.
+you can add many more things including the bgm/ost for the battle or map of the stage and the background that is shown during the fight.
 
 here is the sql for sugoroku_maps:
 
