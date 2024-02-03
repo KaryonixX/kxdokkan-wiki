@@ -85,9 +85,9 @@ After that you should be inside of the App all logged in and ready to go!
 
 (Important: make sure you dont mark any text within the Creator-Tool since that tends to freeze it up, just click into it and press enter to unmark it.)
 
-```
+`
 The tool automatically downloads the latest vanilla database encrypted to the folder we put it into. Check the jp.db and make a copy of it to use for content creation.
-```
+`
 
 NOTE: The KX-Creator app has its asset folder in /sdcard/Android/data/com.kary.kxcreator/files
 You do NOT need Root or any asset injection in order to place your database and assets into the file. 
