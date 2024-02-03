@@ -89,4 +89,10 @@ After that you should be inside of the App all logged in and ready to go!
 The tool automatically downloads the latest vanilla database encrypted to the folder we put it into. Check the jp.db and make a copy of it to use for content creation.
 ```
 
+NOTE: The KX-Creator app has its asset folder in /sdcard/Android/data/com.kary.kxcreator/files
+You do NOT need Root or any asset injection in order to place your database and assets into the file. 
+If you make changes to your jp.db in the PC-Tool folder make sure its 1:1 with the encrypted database.db file that you put into App's directory.
+
+JP Password: `2db857e837e0a81706e86ea66e2d1633`
+
 `further tutorial on how to use the database and the sqls coming soon`
