@@ -98,14 +98,14 @@ the events.json has to reflect our Area-ID and Stages.
                     "name": "Stage Name",
                     "visit_count_max": null,
                     "interval_reset_visited_days": null,
-                    "limitations": [{"id": 1,"type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation"description": "No continues.","conditions": {"count_limit": 0}
+                    "limitations": [{"id": 1,"type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation","description": "No continues.","conditions": {"count_limit": 0}
                 },
                 {
                     "id": 11001002,
                     "name": "Stage Name #2",
                     "visit_count_max": null,
                     "interval_reset_visited_days": null,
-                    "limitations": [{"id": 1,"type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation"description": "No continues.","conditions": {"count_limit": 0}
+                    "limitations": [{"id": 1,"type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation","description": "No continues.","conditions": {"count_limit": 0}
                 }
            ],
                     "user_quest": {"visited_count": 0,"next_reset_at": 9999999999}}]}]}
