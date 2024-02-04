@@ -142,7 +142,7 @@ Singluar Quest:
 After we've got all of that set up we can move on to creating the Stages/Quests themselves.
 Please name the jsons the same name as the Quests/Stage-IDs. So if its the first stage of the event 11001001 then the json matching it is 
 11001001.json in the `inject_stages` folder.
-
+___
 ```json
 {
   "dummy_card_id": 1000780,
@@ -295,5 +295,92 @@ Please name the jsons the same name as the Quests/Stage-IDs. So if its the first
 ```
 
 this is how one of those stages could look.
+___
 
-A tutorial explaining those will come shortly.
+`dummy_card_id` This is the ID of a card the stage will use as dummys when the user hasn't filled his team. 
+
+`dice[]` This contains all possible dice-rolls from 1 to 6 and the probability they come with. This stage has only the 2 button (100%)
+
+`events` This is where you specify the tiles and what you'll encounter on them, i recommend using a Tile Map Editor like [Tiled](https://thorbjorn.itch.io/tiled)
+After that you could open tmx files with it and preview how they're structured in order to get the Tiles info.
+
+- `../sugoroku/tmx/AREAID.cpk` is usually the path of those and you can find them in your KX-Creator App's Asset Path.
+After unpacking the CPK you should see all .tmx files for the stages of the Area.
+
+![**tool](/imgs/tmx.png)
+
+We've selected 790_003.tmx as our file, you can see it also matches our `map` tag in the json.
+the important thing is that we see that its a linear map that starts at tile 0 and goes until tile 4.
+
+The JSON has placed a 
+- 501 / Start node at tile 0
+- 301 / Enemy node with the enemy information at tile 2
+- 502 / Finish node at tile 4
+This means the event starts at tile 0, we fight our boss 2 tiles ahead and finish 2 more tiles after.
+
+`content`->`battle_info[]`
+    This block presents all "rounds" / phases of our event with their specific bgm, background and round id which can be whatever as long as its incremental.
+
+`enemies[]` Here you can see a block that contains enemy information. For each phase we add a [] block. Within that block we can add anything from 1 to 5 enemies per phase `{},{},...` etc
+Just make sure the amount of phases matches the amount of battle_info phases even if you have multiple enemies per phase.
+
+(Dont copy and use this json, its been invalidated because of all the text and examples i added.)
+```json
+Example: Phase 1 with 1 enemy
+        and phase 2 with 2 enemies.
+
+"battle_info": [
+            {
+              "after_script_id": null,
+              "background_id": 68,
+              "before_script_id": null,
+              "bgm_id": 98,
+              "charge_limit": 0,
+              "charge_limit_script_id": null,
+              "round_id": 79003531 (790 03 5 Round 1)
+            },
+            {
+              "after_script_id": null,
+              "background_id": 72,
+              "before_script_id": null,
+              "bgm_id": 101,
+              "charge_limit": 0,
+              "charge_limit_script_id": null,
+              "round_id": 79003532 (790 03 5 Round 2)
+            }
+          ]
+
+"enemies": [
+>            [ // Phase 1
+              {
+                any info in this block represents 1 enemy
+              }
+>            ], // Phase 1
+>            [ 
+              {
+                any info in this block represents 1 enemy
+              },
+              {
+                any info in this block represents 1 enemy
+              }
+>            ]
+          ],
+```
+
+`enemies[]` -> `ai_type` Links to the database table `enemy_ai_conditions` and is responsible for enemy behaviour.
+
+`enemies[]` -> `enemy_skill_id` links to the database table `enemy_skills` and is basically the "passive" of the enemy.
+
+`enemies[]` -> `multi_atk_num` The amount of attacks the enemy will do. How many of it are supers is dependant on the ai_type.
+
+`enemies[]` -> `extra_hp_gauges_count` This is purely visual, you can add up to 11 or 12 Extra HP Bars for the enemy to look intimidating.
+- When you have multiple enemies per phase you want `extra_hp_gauges_count` to be 0 for all enemies because its purely visual.
+
+`enemies[]` -> `is_necessary_to_defeat` This can either be `true` or `false`. This tells the game if that specific enemy is just a punching bag or is necessary to be defeated in order to complete the stage.
+(Similar to the Zamasu and Goku Black Dokkan Event)
+
+`enemies[]` -> `Other Stats` HP, DEF, ATK etc have to be adjusted by you to your liking, play around with them! They're easy to understand. 
+
+THE REST OF THE JSON STAYS AS IS AND YOU'RE GOOD TO GO!
+
+I recommend learning the [basics of JSON](https://www.youtube.com/watch?v=iiADhChRriM) in order to have a good time.
