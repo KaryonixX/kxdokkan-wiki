@@ -80,3 +80,7 @@ It'll automatically add your stuff into the Data-Download whenever you trigger o
 If you already have the latest data just hit `Clear Cache` in the middle of the Title Screen to trigger one.
 
 And thats it!
+
+After a while you should see that the Database and Assets are being Injected and you can actually keep track of the assets being downloaded.
+![**areadb](/imgs/assetdl.png)
+![**areadb](/imgs/dbdl.png)
