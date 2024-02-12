@@ -13,13 +13,13 @@ nav_order: 14
 If you're on iOS however, follow this guide.
 
 First things first you need to download the [Injection-Host Tool.](https://discord.com/channels/794907952766255154/809530247225671680)
-![**areadb](/imgs/dlserver.png)
+![**dlserver](/imgs/dlserver.png)
 This tool needs to stay open for the whole time that you're doing a custom DL or are just working with units in general.
 Please have it in the same folder as your KX-Creator tool.
 
 There will be also an assets folder in the same path created automatically.
 Please put all your files into there, but you'll have to structure them similarly to how dokkan structures their Assets.
-![**areadb](/imgs/assets.png)
+![**assets](/imgs/assets.png)
 You will want your database to be in the assets folder as follows:
 - assets
     - sqlite
@@ -59,7 +59,7 @@ copy the URL you see which is redirecting to your locally hosted server.
 `https://example.localtunnel.me`
 
 And paste it into the small textbox of the InjectionHost.
-![**areadb](/imgs/ngrokload.png)
+![**ngrokload](/imgs/ngrokload.png)
 
 now with all your assets in the folder and with the host-tool still running, we just press `Generate client_assets.json`
 a loading bar should pop up, please wait until its done
@@ -75,5 +75,5 @@ And thats it!
 
 After a while you should see that the Database and Assets are being Injected and you can actually keep track of the assets being downloaded.
 NOTE: v0.2 of the InjectionHost has the currently downloaded files displayed inside of the Tool.
-![**areadb](/imgs/assetdl.png)
-![**areadb](/imgs/dbdl.png)
+![**assetdl](/imgs/assetdl.png)
+![**dbdl](/imgs/dbdl.png)
