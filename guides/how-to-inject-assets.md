@@ -31,46 +31,38 @@ otherwise the hosting tool will not generate the asset sheet for the database an
 
 ___
 
-## First time setup: ngrok
-You will need to set up ngrok, which basically opens up your local filehost to a remote URL that you can use to download those assets onto your phone/emulator.
+## First time setup: localtunnel
+You will need to set up localtunnel, which basically opens up your local filehost to a remote URL that you can use to download those assets onto your phone/emulator.
 
-Download ngrok from [here](https://ngrok.com/download)
+Download nodejs from [here](https://nodejs.org/en)
 (Download for windows)
 
-Afterwards you'll want to extract ngrok.exe to the same directory as your Creator-Tool and the other Host-Tool.
-then you'll need to Sign up for [ngrok](https://dashboard.ngrok.com/signup) and get your authtoken after setting up 2fa.
+Download and Install nodejs like any other program.
 
-![**areadb](/imgs/ngrokauth.png)
-
-press WIN+R and enter `%localappdata%` and you should be taken to the local appdata folder.
-make a new folder and name it ngrok, then create a file within that folder named ngrok.yml
-
-Edit the file with a text editor and put your authtoken in the following way.:
+open cmd (You can press the windows key, then type cmd.exe and hit the enter key)
+Enter:
 ```
-authtoken: YOUR TOKEN HERE
+npm install -g localtunnel
 ```
-
-now you'll want to open cmd in the same folder as the tools are in and type
-`ngrok config upgrade`
-which should set it all up for you.
-
+and press enter.
 Thats all with the setup!
 ___
 
-Now you'll be able to use 
-`ngrok http 8080`
-in the same path as the tool
-and it should be running
-![**areadb](/imgs/ngrokrun.png)
+Now you'll have to open the cmd and enter
+```
+lt --port 8000
+```
+anytime you want to use the tool and it should be running.
 
 copy the URL you see which is redirecting to your locally hosted server.
 
-`https://example.ngrok-free.app`
+`https://example.localtunnel.me`
 
+And paste it into the small textbox of the InjectionHost.
 ![**areadb](/imgs/ngrokload.png)
 
-now with all your assets in the folder and with the host-tool still running, we just insert that URL and press `Generate client_assets.json`
-a loading bar should pop up, please wait until its done.
+now with all your assets in the folder and with the host-tool still running, we just press `Generate client_assets.json`
+a loading bar should pop up, please wait until its done
 
 Now when its all done you should see `client_assets.json` and `database.json` (If you added a db to your assets path) in the same folder as the tool.
 
@@ -82,5 +74,6 @@ If you already have the latest data just hit `Clear Cache` in the middle of the 
 And thats it!
 
 After a while you should see that the Database and Assets are being Injected and you can actually keep track of the assets being downloaded.
+NOTE: v0.2 of the InjectionHost has the currently downloaded files displayed inside of the Tool.
 ![**areadb](/imgs/assetdl.png)
 ![**areadb](/imgs/dbdl.png)
