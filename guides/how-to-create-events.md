@@ -18,8 +18,8 @@ Now 11001 is the ID of your area and thus we need a SQL to Inject it with the Na
 (You select a different ID, check the db for whats currently not taken or ask other creators)
 
 ```
-INSERT OR REPLACE INTO areas (id, type, category, world_id, name, area_icon_id,width,height,split, layer0,layer1,layer2,layer3,event_image_path,banner_image_path,minibanner_image_path,listbutton_image_path,is_listbutton_visible,event_priority,announcement_id, is_quest_num_visible,first_released_at,created_at,updated_at)
-VALUES (11001,'Area::EventArea',12,1,'My New Event', 27,1500,1800,1,27,1,2,3,NULL,NULL, NULL, NULL, 1,1200,200821,1,'2022-01-29 06:00:00','2022-03-08 02:01:00','2022-03-08 02:01:00');
+INSERT OR REPLACE INTO areas (id,type,category,chapter_id,db_story_id,name,prev_area_id,all_clear_bonus_stones,bgm_id,event_image_path,banner_image_path,listbutton_image_path,is_listbutton_visible,event_priority,announcement_id,is_quest_num_visible,first_released_at,created_at,updated_at) 
+VALUES (11001,'Area::EventArea',12,NULL,NULL,'My New Event',NULL,NULL,NULL,NULL,NULL,NULL,1,1200,200821,1,'2022-01-29 06:00:00','2022-03-08 02:01:00','2022-03-08 02:01:00');
 ```
 
 now we head to the `quests` table and see what stages we could add.
