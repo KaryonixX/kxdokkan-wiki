@@ -32,7 +32,7 @@ and that is 11001 + 001 = 11001001 (Area 11001, Stage 001)
 Here is the SQL to add stages:
 ```
 INSERT OR REPLACE INTO quests (id,area_id,name,prev_quest_id,any_clear_bonus_stones,all_clear_bonus_stones,visit_count_max,interval_reset_visited_days,can_ignore_difficulty_order,limitation_announcement_master_id,boostable,start_at,enable_sugoroku_auto,enable_battle_auto,created_at,updated_at) 
-VALUES (11001001,11001,'Some Stage',NULL,1,NULL,NULL,NULL,1,NULL,0,'2015-10-30 00:00:00',0,0,'2024-04-15 01:20:09','2024-04-15 01:20:09');
+VALUES (11001002,11001,'Some Stage #2',NULL,1,NULL,NULL,NULL,1,NULL,0,'2015-10-30 00:00:00',0,0,'2024-04-15 01:20:09','2024-04-15 01:20:09');
 ```
 Of course change this to reflect changes to your IDs.
 you can copy and pase the same sql and only have to change the Stage-ID to give an event multiple stages.
