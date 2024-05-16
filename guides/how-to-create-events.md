@@ -144,13 +144,11 @@ Singluar Quest:
 After we've got all of that set up we can move on to creating the Stages/Quests themselves.
 Please name the jsons the same name as the Quests/Stage-IDs. So if its the first stage of the event 11001001 then the json matching it is 
 11001001.json in the `inject_stages` folder.
-___
+
 ```json
 {
   "dummy_card_id": 1000780,
-  "missions": [
-    
-  ],
+  "missions": [],
   "sugoroku": {
     "dice": {
       "nums": [
@@ -201,9 +199,7 @@ ___
               "round_id": 79003531
             }
           ],
-          "battle_round_condition_sets": [
-            
-          ],
+          "battle_round_condition_sets": [],
           "before_script_id": 0,
           "enemies": [
             [
@@ -233,9 +229,7 @@ ___
               }
             ]
           ],
-          "link_skill_lv_up": [
-            
-          ]
+          "link_skill_lv_up": []
         },
         "type": 301
       },
@@ -297,7 +291,7 @@ ___
 ```
 
 this is how one of those stages could look.
-___
+
 
 `dummy_card_id` This is the ID of a card the stage will use as dummys when the user hasn't filled his team. 
 
