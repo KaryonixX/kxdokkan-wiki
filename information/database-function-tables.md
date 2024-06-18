@@ -51,7 +51,7 @@ This page is a work in progress.
 | 31 | isCombinationAttack | Activates if there are three enemy attacks |  |  |  |
 | 32 | isChangeEnergyBallColor | Checks if there is a ki of a certain type on the board | Ki Type |  |  |
 | 33 | isBetweenHpRate | Checks if card HP percent is between two numbers | HP Percent Lower | HP Percent Higher |  |
-| 34 | isOverTeamCategoryNum | Check if category card is present | 0 for deck; 1 for enemy; 2 for ally attacking in | Category ID | Amount of cards |
+| 34 | isOverTeamCategoryNum | Check if category card is present | 0 for deck; 1 for enemy; 2 for ally attacking in the same turn | Category ID | Amount of cards |
 | 35 | hasAllElementBitpatternCards | Checks if deck has all types of an element bitset | Element Bitset |  |  |
 | 36 | isOverHpRateAndElapsedTurn | HP is above percent, battle has past turn number | HP Percent | Turn |  |
 | 37 | isUnderHpRateAndElapsedTurn | HP is below percent, battle has past turn number | HP Percent | Turn |  |
@@ -63,7 +63,7 @@ This page is a work in progress.
 | 43 | isDodgeSuccess | Activates if card has evaded an attack | Unknown | Unknown | Unknown |
 | 44 | isCountUp | Activates if x amount of actions have occured | 1=Performed Super Attack,2=Has Attacked,3=Receives Damage,4=Guard Actived,5=Evade| Amount of actions | Unknown |
 | 45 | isContainsCardByCategoryAndUniqueInfo | Activates if card is in target, category and unique info relations | Target (team, turn, enemy...) | Category (id, not sub target) | card\_unique\_info\_set\_relations |
-| 46 | isContainsSpecifiedElemenets | Activates if card is in specified element type bitset| Unknown | Unknown | Unknown |
+| 46 | isContainsSpecifiedElemenets | Activates if card is in specified element type bitset| 0 for deck; 1 for enemy; 2 for ally attacking in the same turn | Element Bitset | Amount of cards |
 | 47 | isExecutedRevivalSkill | Activates if card has executed a revival skill | | | |
 | 48 | isAttackedByEnemyWhichTakeSpecialDamage | special_categories.raw_attribute | | | |
 | 49 | isAttackedBySpecialCategory| Activates if attacked by a specified special category super|special_categories.raw_attribute | Unknown | Unknown |
