@@ -108,6 +108,7 @@ This page is a work in progress.
 | 262144 | Unknown |
 | 524288 | Efficacy Type 100 |
 | 1048576 | Efficacy Type 101 |
+| 4194304 | Always Hit (Efficacy Type 92) |
 | 16777216 | Interrupted (Efficacy Type 111) |
 | 4294967296 | Critical Down |
 
