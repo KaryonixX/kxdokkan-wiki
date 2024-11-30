@@ -227,7 +227,7 @@ Applies to all skills tables & `support_items`
 | 107| Change Condition Stackable Delay                                                                                          | Delay turn count                           | 0                                 | 0                                          |                                                                                                                              |
 | 108| Add Potential Skill Variable Parameter                                                                                    | Unknown                                    | Unknown                           | Unknown                                    |                                                                                                                              |
 | 109| Revival Skill                                                                                                             | HP% to heal                                | effect_pack Row                   | BGM ID                                     | Used For Revival Finish Skills  {"priority":x}                                                                               |
-| 110| Remove Ability Efficacy Info And Inactive Ability Status                                                                  | Efficacy Tables (see footnote)             | Row ID                            | 0                                          |                                                                                                                              |
+| 110| Remove Ability Efficacy Info And Inactive Ability Status                                                                  | Table ID        (see footnote)             | Row ID                            | 0                                          |                                                                                                                              |
 | 111| Change Condition Attack Break                                                                                             | 0 (use probability for chance)             | 0                                 | 0                                          |                                                                                                                             |
 | 112| Change Invalidate Attack Break                                                                                            |                                            |                                   |                                            |                                                                                                                             |
 | 113| Threshold Damage                                                                                                          |                                            |                                   |                                            |                                                                                                                             |
@@ -243,6 +243,17 @@ Applies to all skills tables & `support_items`
 | 123| Target Focus                                                                                                              | 0                                          | 0                                 | 0                                          |                                                                                                                           |
 | 128| Dodge Counter Attack                                                                                                      |                                            | Counter Multiplier                | Lua Script # From Folder [lua] > [ab_script] > [attack_counter] > cXXXX.lua (the number you put is whatever is in XXXX, excluding the first 2 or zeroes before the number)| 
 | 129| Invalidate Always Hit                                                                                                     |                                            |                                   |                                            |
+
+<br /><br />
+
+#### Efficacy 110 - Remove Ability Efficacy Info And Inactive Ability Status Table Ids
+
+| Table ID    	| Description        	|
+|:-------------:|--------------------	|
+| 1             | active_skills       |
+| 2             | passive_skills      |
+| 3             | specials            | 
+| 15            | finish_skills       | 
 
 <br /><br />
 
