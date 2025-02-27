@@ -243,6 +243,7 @@ Applies to all skills tables & `support_items`
 | 123| Target Focus                                                                                                              | 0                                          | 0                                 | 0                                          |                                                                                                                           |
 | 128| Dodge Counter Attack                                                                                                      |                                            | Counter Multiplier                | Lua Script # From Folder [lua] > [ab_script] > [attack_counter] > cXXXX.lua (the number you put is whatever is in XXXX, excluding the first 2 or zeroes before the number)| 
 | 129| Invalidate Always Hit                                                                                                     |                                            |                                   |                                            |
+| 131| Reversable Exchance                                                                                                     |Card ID                                            |Voice id                                    |                                            |
 
 <br /><br />
 
