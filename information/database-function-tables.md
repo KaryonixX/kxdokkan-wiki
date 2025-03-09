@@ -259,8 +259,8 @@ Applies to all skills tables & `support_items`
 | 2           | Term Rate           |  2           | Light Bg Color (Green)   |
 | 3           | Is Invinicible      |  3           | Light Bg Color (Blue)    |
 | 4           | Total Amount        |  4           | Dark Bg Color (Red)      |
-| 5           | Unknown             |  5           | Dark Bg Color (Green)    |
-| 6           | Execution Count (?) |  6           | Dark Bg Color (Blue)     |
+| 5           | Name Path `card_metamorphic/label/card_metamorphic_label_%03d_%s.png` |  5           | Dark Bg Color (Green)    |
+| 6           | Unknown             |  6           | Dark Bg Color (Blue)     |
 | 7           | Unknown             |  7           | Pizza LWF ID             |
 |             |                     |  8           | Begin Movie ID           |
 |             |                     |  9           | Continue Movie ID        |
