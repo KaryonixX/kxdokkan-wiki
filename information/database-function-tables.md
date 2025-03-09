@@ -252,7 +252,7 @@ Applies to all skills tables & `support_items`
 * Eff Value 2: Links to `param_no` for Set #1
 * Eff Value 3: Links to `param_no` for Set #2
 
-| Eff Value 1 |                      | Eff Value 2 |                          |
+| Eff Value 2 |                      | Eff Value 3 |                          |
 |:-----------:|---------------------|--------------|--------------------------|
 | 0           | Minimum Turns       |  0           | BGM Number               |
 | 1           | Maximum Turns       |  1           | Light Bg Color (Red)     |
