@@ -75,12 +75,15 @@ This page is a work in progress.
 | 55 | isOverTurnCountFromApperance | Activates if card is x turns from first apperance| turn count | Unknown | Unknown |
 | 56 | isNormalAttack | Activates if attack recieved is a normal attack | Unknown | Unknown | Unknown |
 | 57 | isInSpecifiedDokkanField | Activates if card is in a specified dokkan field | dokkan_field.id| Unknown | Unknown |
-| 58 | isInDokkanField | Activates if card is in a dokkan field| Unknown | Unknown | Unknown |
+| 58 | isInDokkanField | Activates if card is in a dokkan field| 0= Is not In Dokkan Field 1= Is in Dokkan Field | Unknown | Unknown |
 | 59 | isSameAwakeningElementType |Activates if a card in a class| Super Class = 1 Extreme Class = 2 | Unknown | Unknown |
 | 60 | isInSubTargetTypeSet | Activates if card is in a sub target type set| SubTargetTypeSet id | Unknown | Unknown |
 | 61 | isReceivedAttackDuringTurn | Activates if card has recieved attack during turn| Unknown | Unknown | Unknown |
 | 62 | isAttackerElementTypeBitPattern | Activates if attacker has a specific element type bitset | Element Bitset Id | Unknown | Unknown |
-
+| 63 | isElapsedTurnPerRound | Checks Past turn number | 1 + target turn| |
+| 64 | dragonBallChargeCount | Checks Number of Dragon Balls obtained | unknown | unknown | unknown |
+| 65 | metamorphedCount | Activates after the Rage or Giant transformation is used | Unknown | Amount | |
+| 66 | isTotalActiveSkillExecCountUnderNum | Activates if you're under Active Skill Activation Rate | Amount | |
 <br />
 
 ##### Causality #38 - isTargetEnemyCondition Status Flags
